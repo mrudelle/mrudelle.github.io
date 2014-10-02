@@ -32,4 +32,10 @@ html, body {
 	height: 100%;
 }
 
+.plx-float {
+	padding: 1em;
+	font-size: 1em;
+	margin-top: 2em;
+}
+
 
