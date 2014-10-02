@@ -7,8 +7,20 @@
 	padding: 50vh 25%;
 }
 
-.project-show a {
-	color: inherit;
+.bottom a {
+	color: #ACFFB3;
+}
+
+.green a {
+	color: #A2FFAE;
+}
+
+.green a:hover {
+	color: #EBFFED;
+}
+
+.earth {
+	vertical-align: text-bottom;
 }
 
 .cover {
@@ -37,5 +49,19 @@ html, body {
 	font-size: 1em;
 	margin-top: 2em;
 }
+
+.more {
+	color:#95a5a6;
+}
+
+.more:hover{
+	color: #4B5555;
+	text-decoration: none;
+}
+
+.more .glyphicon {
+	font-size: 0.7em;
+}
+
 
 
