@@ -3,6 +3,7 @@
 	<title>Artwork Gallery</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" type="text/css" media="screen" />
 </head>
 <body>
 	<div class="meta">
@@ -11,12 +12,14 @@
 			project with the LCAV laboratory at EPFL</p>
 		<p class="lead gray">July 2014 - Web Development - LCAV @ EPFL</p>
 	</div>
-	<div class="banner">
-		<img class="thumb" src="../img/art-gal-1.png">
-		<img class="thumb" src="../img/art-gal-2.png">
-		<img class="thumb" src="../img/art-gal-3.png">
-		<img class="thumb" src="../img/art-gal-4.png">
-		<img class="thumb" src="../img/art-gal-5.png">
+	<div class="banner-shadow">
+		<div class="banner">
+			<a href="../img/art-gal-1.png" rel="group" class="thumb fancybox"><img src="../img/art-gal-1.png"></a>
+			<a href="../img/art-gal-2.png" rel="group" class="thumb fancybox"><img src="../img/art-gal-2.png"></a>
+			<a href="../img/art-gal-3.png" rel="group" class="thumb fancybox"><img src="../img/art-gal-3.png"></a>
+			<a href="../img/art-gal-4.png" rel="group" class="thumb fancybox"><img src="../img/art-gal-4.png"></a>
+			<a href="../img/art-gal-5.png" rel="group" class="thumb fancybox"><img src="../img/art-gal-5.png"></a>
+		</div>
 	</div>
 	<div class="descr">
 		<p >
@@ -25,4 +28,11 @@
 		</p>
 	</div>
 </body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
 </html>
