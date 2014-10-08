@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Flickr Feed Viewer</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" type="text/css" media="screen" />
+</head>
+<body>
+	<div class="meta">
+		<h1>Flickr Feed Viewer</h1>
+		<p class="lead">Instantly navigate through the Flickr gallery<br>
+			Short opens-source project to get familiar with angular and Sass</p>
+		<p class="lead gray">April/May 2014 - Web Development</p>
+	</div>
+	<div class="banner-shadow">
+		<div class="banner">
+			<a href="../img/flickr-feed-viewer-1.png" rel="group" class="thumb fancybox"><img src="../img/flickr-feed-viewer-1.png"></a>
+			<a href="../img/flickr-feed-viewer-2.png" rel="group" class="thumb fancybox"><img src="../img/flickr-feed-viewer-2.png"></a>
+			<a href="../img/flickr-feed-viewer-3.png" rel="group" class="thumb fancybox"><img src="../img/flickr-feed-viewer-3.png"></a>
+		</div>
+	</div>
+	<div class="descr">
+		<p>Angular is a powerful tool to add interactivity to your website. I really liked the one-page-app principle that is easy to setup and the ability to interact easily with the data.</p>
+		<p>The idea was to build a web application to have a quick access to the public database of images on flickr. For this the title of the page can be edited and while the user is typing, the app fetches the coresponding images <mark>on the fly</mark> and provide a <mark>quick visual feedback</mark>. Then tag list allows the user to quickly navigate from a tag to another.</p>
+		<p>The project is entirely open-source and is available frome this <a href="https://github.com/mrudelle/Flickr-feed-viewer">github repository</a></p>
+		<p>
+			<br>
+			<a class="back" href="javascript:history.back()">
+				<span><span class="glyphicon glyphicon-chevron-left"></span> BACK</span>	
+			</a>
+		</p>
+	</div>
+</body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+</html>
