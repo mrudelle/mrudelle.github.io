@@ -15,14 +15,14 @@ html, body {
 .thumb {
 	display: inline-block;
 	height: 34em;
-	margin: 1em 0.5em 1em 0.5em;
-	border-radius: 0.3em;
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+	margin: 1em 0.2em 0.2em 0.8em;
 }
 
 .thumb img {
 	height: 100%;
 	display: inline-block;
+	border-radius: 0.3em;
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.17);
 }
 
 .banner-shadow{
