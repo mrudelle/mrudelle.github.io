@@ -63,3 +63,15 @@ html, body {
 	color: rgb(31, 31, 31);
 	text-shadow: 0 0.1em 0.05em rgba(255, 255, 255, 0.22);
 }
+
+.techno {
+	padding: 0.3em 1em;
+	-webkit-border-radius: 1em;
+	        border-radius: 1em;
+	margin: 0em 0 0em 0.4em;
+	-webkit-box-shadow: 0 0.2em 0 rgba(0, 0, 0, 0.14);
+	        box-shadow: 0 0.2em 0 rgba(0, 0, 0, 0.14);
+	line-height: 2.5em;
+	background-color: rgb(156, 156, 156);
+	color: rgb(247, 247, 247);
+}
