@@ -113,7 +113,15 @@ html, body {
 
 /* Small devices (phones, 768px and down) */
 @media (max-width: 768px) {
+	.wrapper {
+		background-color: rgba(255, 255, 255, 0.9);
+		border-radius: 1em;
+		padding: 0.6em 3em;
+	}
 
+	#arm, #flickr, #keesaflo, #art-gal {
+		padding-right: 15vw;
+	}
 }
 
 /* Small devices (tablets, 992px and down) */
