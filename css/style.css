@@ -63,8 +63,52 @@ html, body {
 	font-size: 0.7em;
 }
 
+#art-gal {
+	background-image: url('../img/art-gal.png');
+	background-color: #F0F0F0;
+	padding-left: 20vw;
+	padding-right: 60vw;
+	background-position-x: 37vw;
+}
+
+#art-gal .plx-float {
+	right: 81vw;
+}
+
+#keesaflo {
+	background-image:url('../img/keesaflo.png'); 
+	background-color: #e6e6e6; 
+	background-position-x: 40vw; 
+	padding-left: 17vw;
+	padding-right: 59vw;
+}
+
+#keesaflo .plx-float {
+	right: 84vw
+}
+
+#flickr {
+	background-image:url('../img/flickr-feed-viewer.png'); 
+	background-color: #F0F0F0; 
+	background-position-x: 40vw; 
+	padding-left: 15vw;
+	padding-right: 60vw;
+}
+
+#flickr .plx-float {
+	right: 86vw
+}
+
 #arm {
 	background-position-x: 50vw;
+	background-image:url('../img/arm.png'); 
+	background-color: #d6d9df; 
+	padding-left: 20vw;
+	padding-right: 50vw;
+}
+
+#arm .plx-float {
+	right: 81vw;
 }
 
 /* Small devices (phones, 768px and down) */
@@ -79,7 +123,7 @@ html, body {
 
 /* Medium devices (desktops, 1200px and down) */
 @media (max-width: 1200px) {
-	.project-show {
+	/*.project-show {
 		color: white;
 		text-shadow: rgba(0, 0, 0, 0.55) 0px 0px 0.4em;
 		background-position-x: initial;
@@ -89,5 +133,5 @@ html, body {
 	#arm {
 		background-position-x: 20vw;
 		background-size: 60%;
-	}
+	}*/
 }
