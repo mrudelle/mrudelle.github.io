@@ -54,7 +54,7 @@ html, body {
 	height: 100%;
 }
 
-.plx-float {
+.date-label {
 	padding: 1em;
 	font-size: 1em;
 	margin-top: 2em;
@@ -123,13 +123,52 @@ html, body {
 
 /* Small devices (phones, 768px and down) */
 @media (max-width: 768px) {
+
+	.project-show {
+		position: relative;
+		height: 1000px;
+		background-position-y: bottom;
+	}
+
+	#arm, #art-gal {
+		background-position-x: center;
+	}
+
+	#flickr, #keesaflo {
+		background-position-x: left;
+	}
+
+	.more {
+		background-color: #34495e;
+		color: white;
+		padding: 0.3em 0.5em;
+		line-height: 3em;
+		border-radius: 0.3em;
+		transition: 0.5s all;
+	}
+
+	.more:hover {
+		background-color: ##0366C9;
+		color: white;
+	}
+
 	.wrapper {
-		background-color: rgba(255, 255, 255, 0.9);
+		background-color: rgba(46, 204, 113, 0.9);
+		color: white;
 		border-radius: 1em;
-		padding: 0.6em 3em;
+		padding: 3em;
+		bottom: 0px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		border-radius: 0;
 	}
 
 	#arm, #flickr, #keesaflo, #art-gal {
 		padding-right: 15vw;
+	}
+
+	.date-label {
+		display: none;
 	}
 }
