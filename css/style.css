@@ -1,177 +1,47 @@
-.project-show {
-	width: 100%;
-	height: 150vh;
-	background-repeat: no-repeat;
-	background-position-x: 30vw;
-	background-color: rgb(236, 240, 241);
-	padding: 500px 25%;
-}
-
-.bottom a {
-	color: #ACFFB3;
-}
-
-.green a {
-	color: #A2FFAE;
-}
-
-.green a:hover {
-	color: #EBFFED;
-}
-
-.earth {
-	vertical-align: text-bottom;
-}
-
-.cover {
-	display: table;
-}
-
-.title {
-	display: table-cell;
-	vertical-align: middle;
+.container
+{
 	text-align: center;
-	font-size: 4em;
 }
 
-.title span {
-	vertical-align: text-top;
-	padding-right: 0.5em;
+.band
+{
+	background-color: #2377AF;
+	color: white;
+	padding: 3em 0 2em 0;
 }
 
-.subtitle {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	text-align: center;
-	padding-bottom: 1.5em;
-	color: rgba(255, 255, 255, 0.5);
+.band img
+{
+	height: 150px;
 }
 
-html, body {
-	width: 100%;
-	height: 100%;
-}
-
-.date-label {
+.descr
+{
 	padding: 1em;
-	font-size: 1em;
-	margin-top: 2em;
+	font-size: 1.5em;
 }
 
-.more {
-	color:#95a5a6;
+
+.fa-asterisk
+{
+	padding: 2em;
 }
 
-.more:hover{
-	color: #4B5555;
-	text-decoration: none;
+.links
+{
+	list-style: none;
 }
 
-.more .glyphicon {
-	font-size: 0.7em;
+.links li {
+	padding: 0.5em 0 0 0;
 }
 
-#art-gal {
-	background-image: url('../img/art-gal.png');
-	background-color: #F0F0F0;
-	padding-left: 20vw;
-	padding-right: 60vw;
-	background-position-x: 37vw;
+a
+{
+	#2377AF
 }
 
-#art-gal .plx-float {
-	right: 81vw;
-}
-
-#keesaflo {
-	background-image:url('../img/keesaflo.png'); 
-	background-color: #e6e6e6; 
-	background-position-x: 40vw; 
-	padding-left: 17vw;
-	padding-right: 59vw;
-}
-
-#keesaflo .plx-float {
-	right: 84vw
-}
-
-#flickr {
-	background-image:url('../img/flickr-feed-viewer.png'); 
-	background-color: #F0F0F0; 
-	background-position-x: 40vw; 
-	padding-left: 15vw;
-	padding-right: 60vw;
-}
-
-#flickr .plx-float {
-	right: 86vw
-}
-
-#arm {
-	background-position-x: 50vw;
-	background-image:url('../img/arm.png'); 
-	background-color: #d6d9df; 
-	padding-left: 20vw;
-	padding-right: 50vw;
-}
-
-#arm .plx-float {
-	right: 81vw;
-}
-
-/* Small devices (phones, 768px and down) */
-@media (max-width: 768px) {
-
-	.project-show {
-		position: relative;
-		height: 1000px;
-		background-position-y: center;
-	}
-
-	#arm, #art-gal {
-		background-position-x: center;
-	}
-
-	#flickr, #keesaflo {
-		background-position-x: left;
-	}
-
-	.more {
-		background-color: #34495e;
-		color: white;
-		padding: 0.3em 0.5em;
-		line-height: 3em;
-		border-radius: 0.3em;
-		transition: 0.5s all;
-	}
-
-	.more:hover {
-		background-color: ##0366C9;
-		color: white;
-	}
-
-	.wrapper {
-		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 40%,rgba(0,0,0,0) 100%);
-		background:    -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 40%, rgba(0,0,0,0) 100%);
-		background:      -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 40%,rgba(0,0,0,0) 100%);
-		background:         linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 40%,rgba(0,0,0,0) 100%);
-		color: white;
-		border-radius: 1em;
-		padding: 3em;
-		top: 500px;
-		position: absolute;
-		left: 0;
-		right: 0;
-		border-radius: 0;
-	}
-
-	#arm, #flickr, #keesaflo, #art-gal {
-		padding-right: 15vw;
-	}
-
-	.date-label {
-		display: none;
-	}
+.bold
+{
+	font-weight: bold;
 }
