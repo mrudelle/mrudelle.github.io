@@ -6,6 +6,7 @@ html, body {
 
 .meta {
 	padding: 3em;
+	font-size: 1.5em;
 }
 
 .gray {
@@ -42,7 +43,8 @@ html, body {
 
 .descr {
 	padding: 3em;
-	width: 100%
+	width: 100%;
+	font-size: 1.5em;
 }
 
 .back {
@@ -74,4 +76,15 @@ html, body {
 	line-height: 2.5em;
 	background-color: rgb(156, 156, 156);
 	color: rgb(247, 247, 247);
+}
+
+h1
+{
+	font-size: 3em;
+	font-weight: bold;
+}
+
+p.lead 
+{
+	font-size: 1.5em;
 }
