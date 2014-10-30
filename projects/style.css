@@ -88,3 +88,14 @@ p.lead
 {
 	font-size: 1.5em;
 }
+
+dd.list
+{
+	margin-left: 3em;
+}
+
+dt.list
+{
+	text-align: center;
+	width: 3em;
+}
