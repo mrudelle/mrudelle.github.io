@@ -142,7 +142,7 @@ html, body {
 		background-position-y: center;
 	}
 
-	#arm, #art-gal {
+	#arm, #art-gal, #airport {
 		background-position-x: center;
 	}
 
@@ -179,7 +179,7 @@ html, body {
 		border-radius: 0;
 	}
 
-	#arm, #flickr, #keesaflo, #art-gal {
+	#arm, #flickr, #keesaflo, #art-gal, #airport {
 		padding-right: 15vw;
 	}
 
