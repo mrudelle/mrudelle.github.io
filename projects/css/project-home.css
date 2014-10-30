@@ -187,3 +187,23 @@ html, body {
 		display: none;
 	}
 }
+
+/* Small devices (phones, 768px and down) */
+@media (max-width: 1200px) {
+	#art-gal {
+		background-image: url('../img/art-gal-mobile.png');
+	}
+	#keesaflo {
+		background-image:url('../img/keesaflo-mobile.png'); 
+	}	
+	#flickr {
+		background-image:url('../img/flickr-feed-viewer-mobile.png'); 
+	}
+	#arm {
+		background-image:url('../img/arm-mobile.png'); 
+	}
+	#airport {
+		background-image:url('../img/airport-mobile.png'); 
+	}
+}
+
