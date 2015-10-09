@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>Remote Controle</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" type="text/css" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+</head>
+<body style="font-family: 'Dosis', sans-serif;">
+	<div class="meta">
+		<h1>Remote Control</h1>
+		<p class="lead">Real-time gyro transmission between device <br>
+			Personal project aiming to get familiar with NodeJS</p>
+		<p class="lead gray">Dec. 2014 - Web Development</p>
+	</div>
+	<div class="banner-shadow">
+		<div class="banner">
+			<a href="img/remote-1.png" rel="group" class="thumb fancybox"><img src="img/remote-1.png"></a>
+			<a href="img/remote-2.png" rel="group" class="thumb fancybox"><img src="img/remote-2.png"></a>
+			<a href="img/remote-3.png" rel="group" class="thumb fancybox"><img src="img/remote-3.png"></a>
+			<a href="img/remote-4.png" rel="group" class="thumb fancybox"><img src="img/remote-4.png"></a>
+			<a href="img/remote-5.png" rel="group" class="thumb fancybox"><img src="img/remote-5.png"></a>
+			<a href="img/remote-6.png" rel="group" class="thumb fancybox"><img src="img/remote-6.png"></a>
+			<a href="img/remote-7.png" rel="group" class="thumb fancybox"><img src="img/remote-7.png"></a>
+		</div>
+	</div>
+	<div class="descr">
+		<p>
+			NodeJS seemed to be an incredibly powerful technology and it is advertised to manage particularly well <mark>real-time applications</mark>. This is basically what motivated me to try sharing gyro information over the air, using a node.js server as middleman. <br>
+			The server allows tons user to connect at the same time by giving each one a unique Session ID. Then, from your phone you just have to visit the website as a remote and enter the Session ID. <br>
+			This project also allowed me to play with polymer which was a fairly new and interesting technology. Other apps uses various other APIs, mainly as an attempt to get familiar using them.
+		</p>
+		<p>
+			Links:
+			<ul>
+				<li>
+					Live version at <a href="http://remote.mrudelle.com/">http://remote.mrudelle.com</a>
+				</li>
+				<li>
+					<a href="https://github.com/mrudelle/node-control">Github Repo</a>
+				</li>
+			</ul>
+		</p>
+		<p>Technology used: <span class="techno">HTML5</span> <span class="techno">Node.js</span> <span class="techno">Three.js</span> <span class="techno">WebGL</span> <span class="techno">Google Maps Api</span> <span class="techno">Chart.js</span> <span class="techno">Polymer</span></p>
+		<p>
+			<br>
+			<a class="back" href="javascript:history.back()">
+				<span><span class="glyphicon glyphicon-chevron-left"></span> BACK</span>	
+			</a>
+		</p>
+	</div>
+</body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+	<script type="text/javascript" src="../analyticstracking.js"></script>
+</html>
