@@ -122,10 +122,9 @@ html, body {
 }
 
 #ray-tracer {
-	background-image:url('../img/ray-tracer-tiny.png'); 
-	background-color: #000;
-	background-position-x: right; 
-	background-position-y: bottom;
+	background-image:url('../img/ray-tracer.png'); 
+	background-color: #e6e6e6;
+	background-position-x: 40vw;
 	padding-left: 15vw;
 	padding-right: 60vw;
 }
