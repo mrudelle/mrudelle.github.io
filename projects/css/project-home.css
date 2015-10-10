@@ -85,6 +85,18 @@ html, body {
 	right: 81vw;
 }
 
+#remote {
+	background-image: url('../img/remote.png');
+	background-color: #d6d9df;
+	padding-left: 20vw;
+	padding-right: 60vw;
+	background-position-x: 37vw;
+}
+
+#remote .plx-float {
+	right: 81vw;
+}
+
 #keesaflo {
 	background-image:url('../img/keesaflo.png'); 
 	background-color: #e6e6e6; 
@@ -155,7 +167,11 @@ html, body {
 		background-position-y: center;
 	}
 
-	#arm, #art-gal, #airport {
+	#remote {
+		background-position-y: 65%;
+	}
+
+	#arm, #art-gal, #airport, #remote {
 		background-position-x: center;
 	}
 
@@ -192,7 +208,7 @@ html, body {
 		border-radius: 0;
 	}
 
-	#art-gal, #keesaflo, #flickr, #ray-tracer, #arm, #airport {
+	#arm, #flickr, #keesaflo, #art-gal, #airport, #remote, #ray-tracer {
 		padding-right: 15vw;
 	}
 
