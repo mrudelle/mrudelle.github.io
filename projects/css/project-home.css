@@ -121,6 +121,18 @@ html, body {
 	right: 86vw
 }
 
+#ray-tracer {
+	background-image:url('../img/ray-tracer.png'); 
+	background-color: #e6e6e6;
+	background-position-x: 40vw;
+	padding-left: 15vw;
+	padding-right: 60vw;
+}
+
+#ray-tracer .plx-float {
+	right: 86vw
+}
+
 #arm {
 	background-position-x: 50vw;
 	background-image:url('../img/arm.png'); 
@@ -162,7 +174,7 @@ html, body {
 		background-position-x: center;
 	}
 
-	#flickr, #keesaflo {
+	#flickr, #keesaflo, #ray-tracer {
 		background-position-x: left;
 	}
 
@@ -195,7 +207,7 @@ html, body {
 		border-radius: 0;
 	}
 
-	#arm, #flickr, #keesaflo, #art-gal, #airport, #remote {
+	#arm, #flickr, #keesaflo, #art-gal, #airport, #remote, #ray-tracer {
 		padding-right: 15vw;
 	}
 
