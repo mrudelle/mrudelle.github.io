@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Datastore Interactive Tutorial</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" type="text/css" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+</head>
+<body style="font-family: 'Dosis', sans-serif;">
+	<div class="meta">
+		<h1>Datastore Interactive Tutorial</h1>
+		<p class="lead">An interractive tutorial to learn and <br>
+		experiment in real-time with Cloud Datastore</p>
+		<p class="lead gray">Summer 2015 - Web Development - Google, Mountain View, CA</p>
+	</div>
+	<div class="banner-shadow">
+		<div class="banner">
+			<a href="img/google-1.png" rel="group" class="thumb fancybox"><img src="img/google-1.png"></a>
+			<a href="img/google-2.png" rel="group" class="thumb fancybox"><img src="img/google-2.png"></a>
+			<a href="img/google-3.png" rel="group" class="thumb fancybox"><img src="img/google-3.png"></a>
+			<a href="img/google-4.png" rel="group" class="thumb fancybox"><img src="img/google-4.png"></a>
+		</div>
+	</div>
+	<div class="descr">
+		<p >
+			In an effort to get more developers discovering and considering Datastore for web app development, my project at Google was to build a <b>framework for interactive tutorial</b> and apply it to Datastore's RESTful API.<br>
+			I built a framework for exercising the user provided content leveraging a module to assess the execution and provide feedback on the exercise. The UI module allows the user to travel tutorial steps and edit the solution of the exercise.
+		</p>
+		<p>
+			Links:
+			<ul>
+				<li>s
+					<a href="https://cloud.google.com/datastore/docs/apis/v1beta2/">Datastore API</a>
+				</li>
+				<li>
+					<a href="https://developers.google.com/api-client-library/javascript/">Google gapi client for Javascript</a>
+				</li>
+			</ul>
+		</p>
+		<p>Technology used: <span class="techno">Angular.js</span> <span class="techno">JavaScript</span> <span class="techno">Internal Tools</span> <span class="techno">Google Closure Compiler</span></p>
+		<p>
+			<br>
+			<a class="back" href="javascript:history.back()">
+				<span><span class="glyphicon glyphicon-chevron-left"></span> BACK</span>	
+			</a>
+		</p>
+	</div>
+</body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+	<script type="text/javascript" src="../analyticstracking.js"></script>
+</html>
