@@ -73,9 +73,21 @@ html, body {
 	font-size: 0.7em;
 }
 
+#google {
+	background-image: url('../img/google.png');
+	background-color: #EFEFEF;
+	padding-left: 20vw;
+	padding-right: 60vw;
+	background-position-x: 37vw;
+}
+
+#google .plx-float {
+	right: 81vw;
+}
+
 #art-gal {
 	background-image: url('../img/art-gal.png');
-	background-color: #F0F0F0;
+	background-color: #E6E6E6;
 	padding-left: 20vw;
 	padding-right: 60vw;
 	background-position-x: 37vw;
@@ -174,7 +186,7 @@ html, body {
 		background-position-x: center;
 	}
 
-	#flickr, #keesaflo, #ray-tracer {
+	#flickr, #keesaflo, #ray-tracer, #google {
 		background-position-x: left;
 	}
 
@@ -218,6 +230,9 @@ html, body {
 
 /* Small devices (phones, 768px and down) */
 @media (max-width: 1200px) {
+	#art-gal {
+		background-image: url('../img/google-mobile.png');
+	}
 	#art-gal {
 		background-image: url('../img/art-gal-mobile.png');
 	}
