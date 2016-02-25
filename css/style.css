@@ -46,3 +46,14 @@ a
 {
 	font-weight: bold;
 }
+
+li.extra {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0.6em 0;
+}
+
+li.extra mark {
+	border-radius: 0.3em;
+	padding: 0.6em;
+}
