@@ -8,24 +8,33 @@
 </head>
 <body style="font-family: 'Dosis', sans-serif;">
 	<div class="meta">
-		<h1>Artwork Galery</h1>
-		<p class="lead">An intuitive way to relight artworks <br>
-			project with the LCAV laboratory at EPFL</p>
-		<p class="lead gray">July 2014 - Web Development - LCAV @ EPFL</p>
+		<h1>Artworks Visualization</h1>
+		<p class="lead">A new way to visualize artworks<br>
+			Summer internship, research project and part time position at Artmyn</p>
+		<p class="lead gray">2014-2016 - Web Development - Artmyn</p>
 	</div>
 	<div class="banner-shadow">
 		<div class="banner">
-			<a href="img/art-gal-1.png" rel="group" class="thumb fancybox"><img src="img/art-gal-1.png"></a>
-			<a href="img/art-gal-2.png" rel="group" class="thumb fancybox"><img src="img/art-gal-2.png"></a>
-			<a href="img/art-gal-3.png" rel="group" class="thumb fancybox"><img src="img/art-gal-3.png"></a>
-			<a href="img/art-gal-4.png" rel="group" class="thumb fancybox"><img src="img/art-gal-4.png"></a>
-			<a href="img/art-gal-5.png" rel="group" class="thumb fancybox"><img src="img/art-gal-5.png"></a>
+			<a href="img/art-gal-1.jpg" rel="group" class="thumb fancybox"><img src="img/art-gal-1.jpg"></a>
+			<a href="img/art-gal-2.jpg" rel="group" class="thumb fancybox"><img src="img/art-gal-2.jpg"></a>
+			<a href="img/art-gal-3.jpg" rel="group" class="thumb fancybox"><img src="img/art-gal-3.jpg"></a>
+			<a href="img/art-gal-4.jpg" rel="group" class="thumb fancybox"><img src="img/art-gal-4.jpg"></a>
+			<a href="img/art-gal-5.jpg" rel="group" class="thumb fancybox"><img src="img/art-gal-5.jpg"></a>
+			<a href="img/art-gal-6.png" rel="group" class="thumb fancybox"><img src="img/art-gal-6.png"></a>
 		</div>
 	</div>
 	<div class="descr">
-		<p >
-			A laboratory at the EPFL (LCAV) is doing researches related to artwork relighting and I was missioned to build a gallery to showcase their work, along with a user-friendly interface for their WebGl app. <br>
-			I worked more particularly on building the whole gallery, a module to see images in their life-size, and a new interface for the WebGL code. This latter includes a guided tour feature, flying over the painting like a video, showing most of the relighting features. Plus a new system to move around in 3 Dimensions, in a way similar to how you can consult Google Maps.
+		<p>
+			<a href="http://www.artmyn.com">Artmyn</a> is a startup from LCAV laboratory at EPFL. The startup is doing researches related to the visualization of artwork in the more realistic manner possible, notably through relighting. Since an internship in summer 2014 I am now working part-time as lead developer for the visualization web app.<br>
+			The web app uses WebGL to render the artwork in 3D and with high resolution. Among others, it implements the following key features:
+			<ul>
+				<li><mark>Virtual Texturing</mark>: this is an 'infinite zoom' like feature, similar to what Google Maps proposes. It streams small parts of the texture as a client visit the artworks.</li>
+				<li><mark>Adaptive Mesh</mark>: allows to have a very high geometry precision when zooming on the artwork and keeping the vertex count low at the same time.</li>
+				<li>Guided Tour: animates the web app like if it was playing a video with sound. Except the animation is rendered live.</li>
+				<li>Relighting: allows the user to change the light conditions (direction, temperature, specularity ...) while the artwork reacts realistically.</li>
+			</ul>
+			The app is provided with an intuitive viewer interface for desktop and mobile devices but other interfaces like <a href="https://www.leapmotion.com/">Leap Mothion</a> are being tested!<br>
+
 		</p>
 		<p>
 			Links:
@@ -34,11 +43,11 @@
 					<a href="http://lcav.epfl.ch/">Laboratory of Audiovisual Communications (LCAV)</a>
 				</li>
 				<li>
-					<a href="http://lcav.epfl.ch/research/eFacsimile">eFacsimile project</a>
+					<a href="http://www.artmyn.com">Artmyn</a>
 				</li>
 			</ul>
 		</p>
-		<p>Technology used: <span class="techno">HTML5</span> <span class="techno">LESS</span> <span class="techno">Django</span> <span class="techno">WebGL</span> <span class="techno">Javascript</span> <span class="techno">JQuery</span> <span class="techno">Bootsrap</span></p>
+		<p>Technology used: <span class="techno">HTML5</span> <span class="techno">LESS</span> <span class="techno">Django</span> <span class="techno">WebGL</span> <span class="techno">Javascript</span> <span class="techno">JQuery</span> <span class="techno">Bootsrap</span> <span class="techno">Leap&nbsp;Motion</span></p>
 		<p>
 			<br>
 			<a class="back" href="javascript:history.back()">
