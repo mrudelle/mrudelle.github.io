@@ -182,11 +182,11 @@ html, body {
 		background-position-y: 65%;
 	}
 
-	#arm, #art-gal, #airport, #remote {
+	#arm, #airport, #remote {
 		background-position-x: center;
 	}
 
-	#flickr, #keesaflo, #ray-tracer, #google {
+	#flickr, #keesaflo, #ray-tracer, #google, #art-gal {
 		background-position-x: left;
 	}
 
