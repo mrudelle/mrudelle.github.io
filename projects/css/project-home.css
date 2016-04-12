@@ -97,6 +97,18 @@ html, body {
 	right: 81vw;
 }
 
+#distart {
+	background-image: url('../img/distart.png');
+	background-color: #E6E6E6;
+	padding-left: 20vw;
+	padding-right: 60vw;
+	background-position-x: 40vw;
+}
+
+#distart .plx-float {
+	right: 81vw;
+}
+
 #remote {
 	background-image: url('../img/remote.png');
 	background-color: #d6d9df;
@@ -178,8 +190,12 @@ html, body {
 		background-position-y: center;
 	}
 
-	#remote, #art-gal {
+	#remote, #art-gal, #distart {
 		background-position-y: 65%;
+	}
+
+	#distart {
+		background-position-y: 35%;
 	}
 
 	#arm, #airport, #remote {
@@ -200,7 +216,7 @@ html, body {
 	}
 
 	.more:hover {
-		background-color: ##0366C9;
+		background-color: #0366C9;
 		color: white;
 	}
 
@@ -219,7 +235,7 @@ html, body {
 		border-radius: 0;
 	}
 
-	#arm, #flickr, #keesaflo, #art-gal, #airport, #remote, #ray-tracer {
+	#arm, #flickr, #keesaflo, #art-gal, #airport, #remote, #ray-tracer, #distart {
 		padding-right: 15vw;
 	}
 
@@ -230,11 +246,15 @@ html, body {
 
 /* Small devices (phones, 768px and down) */
 @media (max-width: 1200px) {
-	#art-gal {
+	#google {
 		background-image: url('../img/google-mobile.png');
 	}
 	#art-gal {
 		background-image: url('../img/art-gal-mobile.png');
+	}
+	#distart {
+		background-image: url('../img/distart-mobile.png');
+		background-position-x: 50vw;
 	}
 	#keesaflo {
 		background-image:url('../img/keesaflo-mobile.png'); 

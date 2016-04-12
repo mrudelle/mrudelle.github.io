@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Highly Scalable Hackathon Project - DistART</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" type="text/css" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+</head>
+<body style="font-family: 'Dosis', sans-serif;">
+	<div class="meta">
+		<h1>DistART</h1>
+		<p class="lead">Highly Scalable NeuralStyle CloudBased Web Service</p>
+		<p class="lead gray">March 2016 - Cloud / Web Development - Microsoft Imagine Hackathon, EPFL, Switzerland</p>
+	</div>
+	<div class="banner-shadow">
+		<div class="banner">
+			<a href="img/distart-0.png" rel="group" class="thumb fancybox"><img src="img/distart-0.png"></a>
+			<a href="img/distart-1.jpg" rel="group" class="thumb fancybox"><img src="img/distart-1.jpg"></a>
+			<a href="img/distart-2.jpg" rel="group" class="thumb fancybox"><img src="img/distart-2.jpg"></a>
+			<a href="img/distart-3.jpg" rel="group" class="thumb fancybox"><img src="img/distart-3.jpg"></a>
+			<a href="img/distart-4.png" rel="group" class="thumb fancybox"><img src="img/distart-4.png"></a>
+		</div>
+	</div>
+	<div class="descr">
+		<p >
+			24 hours, this is the time we were allowed to design and build a highly scalable platform for image processing tools. This is an idea we got during the 2016 Microsoft Imagine Hackaton at EPFL. The platform is executing heavy image processing code on GPU (the currently
+			<a href="http://www.boredpanda.com/computer-deep-learning-algorithm-painting-masters/">famous</a> deep learning
+			<a href="http://arxiv.org/abs/1508.06576">Neural Style</a> in this case) that were running on Amazon Web Services (GPU VMs were not available on Azure at that time). The tool we built is three-fold:
+			<lu>
+				<li>Providing an API for uploading images, keeping jobs metadata and keeping a queue of operations.</li>
+				<li>Executing the image processing code on multiple worker machines and environment, all synchronising with the API's scalable tools to distribute the list of jobs.</li>
+				<li>Providing users with a nice interface to upload and receive images: for this we chose to implement a
+					<a href="https://telegram.org/blog/bot-revolution">Telegram Bot</a> to be able to interact directly from a messaging app.</li>
+			</lu>
+			<br>
+			Each part has been implemented using Node.js that helps quickly experimenting concepts of web services.
+			<br>
+			The API is running under multiple scalable APP API instances. They run a RESTfull API by greedily storing job metadatas in a Storage Account Table, job images in Storage Account Blob storage to finally put the job at the end of a Storage Account Queue. These 3 entites are highly scalable and helps every actors of the system to interact seamlessly.
+			<br><br>
+			The telegram bot is the only non-scalable bit. For the sake of the demo it was running on a RaspberryPI at home, connected to internet under a DynDNS. The idea to build a telegram bot was to demonstrate the wide range of applications unlocked by building a RESTFull API.
+			<br><br>
+			The DEMO had to be shut down as GPU machines are costly when running round the clock. However you can check
+			<a href="https://docs.google.com/presentation/d/1i43Ejp5qTXp91KUa6MQEqbv2oc2tVDNc2c5boKU6WMI/edit?usp=sharing">the presentation</a> that we gave at the end of the 24 hours. The project is also open source and available on
+			<a href="https://github.com/DistArt">Github</a>.
+		</p>
+		<p>
+			Links:
+			<ul>
+				<li>
+					<a href="http://arxiv.org/abs/1508.06576">Neural Style paper</a>
+				</li>
+				<li>
+					<a href="https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/">Azure storage account and App Api</a>
+				</li>
+				<li>
+					<a href="https://github.com/DistArt">GITHUB Repository</a>
+				</li>
+			</ul>
+		</p>
+		<p>Technology used: <span class="techno">Node.js</span> <span class="techno">Azure&nbsp;Cloud</span> <span class="techno">Telegram&nbsp;Bot</span> <span class="techno">RaspberyPI</span> <span class="techno">AWS&nbsp;GPU&nbsp;VMs</span></p>
+		<p>
+			<br>
+			<a class="back" href="javascript:history.back()">
+				<span><span class="glyphicon glyphicon-chevron-left"></span> BACK</span>	
+			</a>
+		</p>
+	</div>
+</body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+	<script type="text/javascript" src="../analyticstracking.js"></script>
+</html>
