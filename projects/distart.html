@@ -23,9 +23,9 @@
 	</div>
 	<div class="descr">
 		<p >
-			24 hours, this is the time we were allowed to design and build a highly scalable platform for image processing tools. This is an idea we got during the 2016 Microsoft Imagine Hackaton at EPFL. The platform is executing heavy image processing code on GPU (the currently
+			24 hours, this is the time we were allowed to design and build a highly scalable platform for image processing tools. This is an idea we had during the 2016 <mark>Microsoft Imagine Hackaton at EPFL</mark> and we won as the <mark>best project</mark> of the event! The platform is executing heavy image processing code on GPU (the currently
 			<a href="http://www.boredpanda.com/computer-deep-learning-algorithm-painting-masters/">famous</a> deep learning
-			<a href="http://arxiv.org/abs/1508.06576">Neural Style</a> in this case) that were running on Amazon Web Services (GPU VMs were not available on Azure at that time). The tool we built is three-fold:
+			<a href="http://arxiv.org/abs/1508.06576">Neural Style</a> in this case) that were running on <mark>Amazon Web Services</mark> (GPU VMs were not available on Azure at that time). The tool we built is three-fold:
 			<lu>
 				<li>Providing an API for uploading images, keeping jobs metadata and keeping a queue of operations.</li>
 				<li>Executing the image processing code on multiple worker machines and environment, all synchronising with the API's scalable tools to distribute the list of jobs.</li>
@@ -37,7 +37,7 @@
 			<br>
 			The API is running under multiple scalable APP API instances. They run a RESTfull API by greedily storing job metadatas in a Storage Account Table, job images in Storage Account Blob storage to finally put the job at the end of a Storage Account Queue. These 3 entites are highly scalable and helps every actors of the system to interact seamlessly.
 			<br><br>
-			The telegram bot is the only non-scalable bit. For the sake of the demo it was running on a RaspberryPI at home, connected to internet under a DynDNS. The idea to build a telegram bot was to demonstrate the wide range of applications unlocked by building a RESTFull API.
+			The telegram bot is the only non-scalable bit. For the sake of the demo it was running on a <mark>RaspberryPI</mark> at home, connected to internet under a DynDNS. The idea to build a telegram bot was to demonstrate the wide range of applications unlocked by building a RESTFull API.
 			<br><br>
 			The DEMO had to be shut down as GPU machines are costly when running round the clock. However you can check
 			<a href="https://docs.google.com/presentation/d/1i43Ejp5qTXp91KUa6MQEqbv2oc2tVDNc2c5boKU6WMI/edit?usp=sharing">the presentation</a> that we gave at the end of the 24 hours. The project is also open source and available on
